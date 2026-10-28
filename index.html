@@ -4,15 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Portifolio</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilo.css">
 </head>
 <body>
-    
+    <main class="container my-5 py-4">
+    <div class="row align-items-center g-4">
+        
+        <!-- Coluna da Foto (Lado Esquerdo) -->
+        <div class="col-md-5 text-center">
+            <img src="FernandoB.png" alt="Foto de Fernando Bubola" class="img-fluid rounded-circle shadow" style="max-width: 280px;">
+        </div>
 
+        <!-- Coluna da Descrição (Lado Direito) -->
+        <div class="col-md-7">
+            <h1 class="fw-bold mb-3">Fernando Augusto Búbola</h1>
+            <p class="lead text-primary fw-medium mb-3">
+                Estudante de Análise e Desenvolvimento de Sistemas no IFPR Campus Paranaguá
+            </p>
+            <p class="text-secondary">
+                Minha trajetória na tecnologia começou na ifpr campus paranaguá, onde estou desenvolvendo habilidades de analise e desenvolvimento de sistemas. Buscando aperfeiçoar meus conhecimentos e aprender mais sobre a área.
+            </p>
+            
+            <!-- Botões / Links Rápidos -->
+            <div class="mt-4">
+                <a href="https://github.com/FerNANDOBubo" target="_blank" class="btn btn-dark me-2">GitHub</a>
+                <a href="https://www.linkedin.com/in/fernando-bubola-24993343b/" target="_blank" class="btn btn-primary">LinkedIn</a>
+            </div>
+        </div>
 
-    <h3>Estudante de Analise e Desenvolvimento de Sistemas, Atualmente estudando na IFPR Campus de Paranaguá</h3>
+    </div>
+    <!-- Linha Divisória de Leveza -->
+        <hr class="my-5 text-muted">
 
+        <!-- Parte Inferior: Formação Acadêmica -->
+        <section class="row justify-content-center">
+            <div class="col-md-8">
+                <h3 class="h4 fw-bold mb-3">Formação</h3>
+                <div class="p-4 border rounded bg-light shadow-sm">
+                    <h5 class="fw-bold mb-1">Análise e Desenvolvimento de Sistemas</h5>
+                    <p class="text-muted mb-2">Instituto Federal do Paraná (IFPR) — Campus Paranaguá</p>
+                    <span class="badge bg-primary fs-6">Em andamento</span>
+                </div>
+            </div>
+        </section>
 
+</main>
 
-
+<script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
